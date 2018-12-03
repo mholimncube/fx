@@ -1,0 +1,26 @@
+﻿@model IEnumerable<AwayFromKeyboard.Models.Employee>
+@{
+    ViewBag.Title = "employeeList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="text-align:center">Employee Details</h3>
+
+
+<p>
+    @Html.ActionLink("Add New Employee", "Index", "Employee")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        </table>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        </tr>
+        }

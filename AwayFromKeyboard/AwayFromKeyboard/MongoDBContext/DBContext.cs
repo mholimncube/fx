@@ -8,7 +8,7 @@ using System.Web;
 
 namespace AwayFromKeyboard.MongoDBContext
 {
-    public class MongoDBContext
+    public class DBContext
     {
         public const string CONNECTION_STRING_NAME = "connectionString";
         public const string DATABASE_NAME = "AFKdb";
@@ -17,7 +17,7 @@ namespace AwayFromKeyboard.MongoDBContext
         private static readonly IMongoClient _client;
         private static readonly IMongoDatabase _database;
 
-        static MongoDBContext()
+        static DBContext()
         {
             string constr = ConfigurationManager.AppSettings[CONNECTION_STRING_NAME];
             _client = new MongoClient(constr);
