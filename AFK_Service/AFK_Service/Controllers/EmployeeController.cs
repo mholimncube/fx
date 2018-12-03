@@ -27,6 +27,7 @@ namespace AFK_Service.Controllers
                 collection.InsertOneAsync(employee);
 
                 return RedirectToAction("emplist");
+                //this is testing
 
             }
             return View();
