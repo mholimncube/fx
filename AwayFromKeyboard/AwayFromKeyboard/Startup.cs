@@ -1,5 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using System.Web.Hosting;
+using System.Web.Services.Description;
 
 [assembly: OwinStartupAttribute(typeof(AwayFromKeyboard.Startup))]
 namespace AwayFromKeyboard
@@ -8,6 +10,7 @@ namespace AwayFromKeyboard
     {
         public void Configuration(IAppBuilder app)
         {
+            
             ConfigureAuth(app);
         }
     }

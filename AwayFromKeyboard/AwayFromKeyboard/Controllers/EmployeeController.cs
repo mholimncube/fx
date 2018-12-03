@@ -12,6 +12,7 @@ namespace AwayFromKeyboard.Controllers
     public class EmployeeController : Controller
     {
         // GET: Employee
+
         [HttpPost]
         public ActionResult Index(Employee employee)
         {
@@ -29,5 +30,6 @@ namespace AwayFromKeyboard.Controllers
             }
             return View();
         }
+
     }
 }

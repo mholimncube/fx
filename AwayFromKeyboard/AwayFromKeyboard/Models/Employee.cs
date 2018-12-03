@@ -15,6 +15,5 @@ namespace AwayFromKeyboard.Models
         [BsonElement("Name")]
         public string Name { get; set; }
 
-        //testing statement
     }
 }
