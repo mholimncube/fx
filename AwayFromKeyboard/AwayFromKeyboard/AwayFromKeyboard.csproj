@@ -243,6 +243,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Session.cs" />
     <Compile Include="Models\Status.cs" />
+    <Compile Include="MongoDBContext\MongoDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
