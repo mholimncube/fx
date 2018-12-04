@@ -15,5 +15,10 @@ namespace AwayFromKeyboard.Models
         [BsonElement("Name")]
         public string Name { get; set; }
 
+        public Session session { get; }
+        public Status status { get; }
+
+
     }
+
 }
