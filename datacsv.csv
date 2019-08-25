@@ -1,9 +1,9 @@
-source;target ;value
-A;B;5
-A;C;5
-A;D;5
-A;E;10
-E;F;5
-E;G;5
-B;H;5
-B;C;2
+source,target ,value
+A,B,5
+A,C,5
+A,D,5
+A,E,10
+E,F,5
+E,G,5
+B,H,5
+B,C,2
